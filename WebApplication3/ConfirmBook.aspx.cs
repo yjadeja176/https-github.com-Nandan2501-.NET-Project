@@ -16,6 +16,7 @@ namespace WebApplication3
         private void LoadBookingDetails()
         {
             // Booking ID
+            //id
 
             lblBookingId.InnerText =
                 Session["BookingID"]?.ToString()
